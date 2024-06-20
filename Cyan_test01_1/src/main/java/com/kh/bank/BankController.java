@@ -13,7 +13,7 @@ import common.Common;
 import dao.RateDAO;
 import service.BankService;
 import vo.RateVO;
-
+//4
 @Controller
 public class BankController {
 	RateDAO rate_dao;
