@@ -16,7 +16,7 @@ import vo.RateVO;
 
 //안녕 히히힣 여기도 3번!
 
-
+//으아아 2시 ㅣ후입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏ
 @Controller
 public class BankController {
 	RateDAO rate_dao;
