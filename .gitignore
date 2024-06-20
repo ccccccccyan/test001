@@ -1,16 +1,16 @@
-# Compiled class file
+# Compiled class file > .java 파일을 jvm이 컴파일 하는 과정에서 자동으로 생성되는 파일
 *.class
 
-# Log file
+# Log file > 프로젝트가 실행되는 동안 발생하는 로그 기록을 기록하는 파일
 *.log
 
-# BlueJ files
+# BlueJ files >  BlueJ라는 자바 교육용 통합 개발 환경(IDE)에서 생성하는 파일
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Mobile Tools for Java (J2ME) > Mobile Tools for Java(J2ME)에서 생성하는 임시 파일
 .mtj.tmp/
 
-# Package Files #
+# Package Files # > 소프트웨어 배포, 설치, 압축, 아카이빙 등의 목적으로 사용되는 파일 > 빌드 결과물입니다. 소스 코드와 빌드 스크립트가 있으면 언제든지 새로 생성
 *.jar
 *.war
 *.nar
@@ -19,6 +19,16 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml > Java 가상 머신(JVM) 크래시 로그 파일 > JVM이 실행 중에 심각한 오류나 크래시가 발생했을 때 자동으로 생성
 hs_err_pid*
 replay_pid*
+
+# Eclipse IDE files > 이클립스 설정 파일
+.metadata/
+.classpath
+.project
+.settings/
+
+# Maven-specific > Maven 빌드 시 생성되는 디렉터리입니다. 이 디렉터리에는 빌드된 클래스 파일, JAR 파일 등이 포함
+/target/
+
