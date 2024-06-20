@@ -13,7 +13,10 @@ import common.Common;
 import dao.RateDAO;
 import service.BankService;
 import vo.RateVO;
-//으아아아아아아아아아아아 2시 이후
+
+//안녕 히히힣 여기도 3번!
+
+
 @Controller
 public class BankController {
 	RateDAO rate_dao;
