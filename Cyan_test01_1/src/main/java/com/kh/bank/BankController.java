@@ -13,7 +13,7 @@ import common.Common;
 import dao.RateDAO;
 import service.BankService;
 import vo.RateVO;
-
+//으아아아아아아아아아아아 2시 이후
 @Controller
 public class BankController {
 	RateDAO rate_dao;
@@ -83,6 +83,9 @@ public class BankController {
 	  System.out.println("오늘 : "+res_day); 
 	  return Common.Bank.VIEW_PATH + "bank_list.jsp"; 
 	  }
+
+	 
+111	 ...dksa=sdaslkdnkladnkl
 	 
 */
 }
