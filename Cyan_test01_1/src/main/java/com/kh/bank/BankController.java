@@ -21,7 +21,7 @@ public class BankController {
 	public BankController(RateDAO rate_dao) {
 		this.rate_dao = rate_dao;
 	}
-
+//히히 나 3번! 
 	@RequestMapping(value = { "/", "list.do" })
 	public String list(Model model) throws IOException {
 		// 현재 날짜 가져오기
