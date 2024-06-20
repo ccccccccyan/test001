@@ -31,4 +31,4 @@ replay_pid*
 
 # Maven-specific > Maven 빌드 시 생성되는 디렉터리입니다. 이 디렉터리에는 빌드된 클래스 파일, JAR 파일 등이 포함
 /target/
-
+pom.properties   # pom.properties 파일을 무시합니다
