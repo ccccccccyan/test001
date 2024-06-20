@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="r">
+	<insert id="data_insert" parameterType="vo.RateVO">
+		insert into RATE values(
+					seq_rate_idx.nextVal,
+					#{cur_nm},
+					#{cur_unit},
+					#{ttb},
+					#{tts},
+					#{rate_date}
+		)
+	</insert>
+	
+	<insert id="no_insert" parameterType="vo.RateVO">
+		insert into RATE ( rate_idx, rate_date) values(
+					seq_rate_idx.nextVal,
+					#{rate_date}
+		)
+	</insert>
+	 
+	
+	<select id="bank_list" resultType="vo.RateVO">
+		select * from RATE order by rate_date DESC
+	</select>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
